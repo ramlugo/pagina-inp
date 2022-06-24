@@ -1,0 +1,49 @@
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --red: #de0000f0;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    width: 100%;
+    height: 900;
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+    'login'
+    'form'
+    'form'
+    'signup'
+    'help';
+}
+
+/* Login Form */
+
+.login {
+    background-color: lightblue;
+    display: grid;
+}
+.form-container {
+    display: grid;
+    place-items: center;
+}
+.logo {
+    grid-area: logo;
+}
+.login-form {
+    grid-area:
+    form
+    form;
+}
+.signup-button {
+    grid-area: signup;   
+}
+.help {
+    grid-area: help;
+}

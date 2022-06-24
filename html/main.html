@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Instituto Nacional de Pedriatría</title>
+    <link rel="shortcut icon" href="../assets/inp-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header class="menu">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="../assets/inp-logo.png" alt="logo" class="logo">
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">1 Semana</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">1 Mes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">3 Mes</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Todos los registros</a>
+                </li>
+
+                <img src="../assets/close.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="../assets/menu.svg" class="nav__img">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="patient-info">
+            <form action="/" class="form">
+                <h2 class="title">Mide e ingresa tu oxigenación y ritmo cardiaco</h2>
+
+                <div>
+                    <label for="oxigenacion" class="label">Oxigenación</label>
+                    <input type="number" id="oxigenacion" placeholder="90%" class="input input-oxigenacion">
+
+                    <label for="ritmo cardiaco" class="label">Ritmo cardiaco</label>
+                    <input type="number" id="ritmo cardiaco" placeholder="120" class="input input-ritmo-cardiaco">
+
+                    <input type="submit" value="Enviar" class="info-button">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="../javascript/menu.js"></script>
+</body>
+</html>
